@@ -21,9 +21,13 @@ docker-compose exec app php artisan db:seed
 Claims
 
 GET  ------> /api/claims
+
 POST  ------> /api/claims
+
 GET  ------> /api/claims/{id}
+
 PUT  ------> /api/claims/{id}
+
 DELETE  ------> /api/claims/{id}
 
 Reaction
