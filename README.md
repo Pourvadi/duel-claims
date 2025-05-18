@@ -18,18 +18,22 @@ docker-compose exec app php artisan db:seed
 
 ( http://127.0.0.1:8000 ) base_url 
 
-Claims
+## Claims
 
 GET  ------> /api/claims
+
 POST  ------> /api/claims
+
 GET  ------> /api/claims/{id}
+
 PUT  ------> /api/claims/{id}
+
 DELETE  ------> /api/claims/{id}
 
-Reaction
+## Reaction
 
 POST  ------> /api/claims/{claim}/reactions
 
 ## The Address of Project
 
-(  )
+( https://github.com/Pourvadi/duel-claims.git )
